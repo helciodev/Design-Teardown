@@ -10,9 +10,10 @@ body {
 
 :root {
   --light-gray: rgb(175, 173, 173);
-  --dark-gray: rgb(92, 90, 90);
+  --dark-gray: rgb(129, 129, 129);
   --lighter-gray: rgb(207, 205, 205);
   --darker-gray: rgb(53, 52, 52);
+  --light-darker-gray: rgb(90, 90, 90);
   --lightest-gray: rgb(224, 218, 218);
   --darkest-gray: rgb(107, 105, 105);
 }
@@ -107,6 +108,7 @@ body {
   top: 15%;
   left: 50%;
   transform: translate(-50%, -50%);
+  box-shadow: 5px 70px 66px black;
 }
 
 .articles {
@@ -117,21 +119,21 @@ body {
   flex-wrap: wrap;
 }
 
-/* .about-articles {
-
-} */
 
 .articles article {
   width: 50%;
   height: 50%;
 }
 
+.about-article {
+  padding-left: 50px;
+}
 .useful-tools {
   background-color: var(--dark-gray);
 }
 
 .face-motion {
-  background-color: var(--light-gray);
+  background-color: var(--light-darker-gray);
 }
 
 .typescript-generics {
@@ -144,7 +146,7 @@ body {
 
 .article-info {
   margin: 220px 70px 30px 30px;
-  width: 30%;
+  width: 32%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -174,7 +176,7 @@ body {
   height: 40px;
   width: 70%;
   margin-left: 30px;
-  background-color: aqua;
+  background-color: var(--light-gray);
   /* background-color: var(--darker-gray); */
 }
 
@@ -185,7 +187,58 @@ body {
 }
 
 .arrow {
-  width: 30px;
-  height: 14px;
-  background-color: blue;
+  width: 40px;
+  height: 8px;
+  background-color:var(--lighter-gray);
+  margin-top: 72px;
+}
+
+.membership {
+  height: 400px;
+  width: 1400px;
+  background-color: var(--darkest-gray);
+  padding: 29px 121px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.membership-content  {
+  margin-top: 40px;
+  width: 60%;
+}
+
+.membership-content p, .membership-content li {
+  height: 8px;
+  width: 60%;
+  margin-bottom: 14px;
+  background-color: var(--light-gray);
+}
+
+.membership-content ul {
+  margin-top: 64px;
+}
+.membership-icon {
+ width: 20%;
+  height: 270px;
+  transform: rotate(-19deg);
+  margin-top: -85px;
+  background-color: var(--darker-gray);
+  transition: all .2s;
+  cursor: pointer;
+  margin-right: 140px;
+}
+
+.membership-icon:hover {
+transform: rotate(0deg);
+}
+
+.membership-btn {
+  width: 60%;
+  height: 62px;
+  background-color: var(--darker-gray);
+  outline: none;
+  border: 1px solid var(--darker-gray);
+  margin-top: 35px;
+  border-radius: 10px;
+  cursor:pointer;
 }
