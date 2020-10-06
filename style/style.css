@@ -5,7 +5,8 @@
 }
 
 body {
-  width: 1440px
+  width: 1440px;
+  overflow-x: hidden;
 }
 
 :root {
@@ -255,23 +256,21 @@ body {
   transition: all .2s ease-out;
 }
 
-.latest-post-articles > * {
+.latest-post-articles>* {
   height: 460px;
   padding: 30px;
 }
 
-.latest-post-articles > *:hover {
-  transform:scale(1.02);
+.latest-post-articles>*:hover {
+  transform: scale(1.02);
   background-color: var(--lightest-gray);
 }
 
-
 .latest-post-articles h2 {
-    height: 100px;
-    background-color: var(--darker-gray);
-    width: 300px;
-    margin-bottom: 10px;
-
+  height: 100px;
+  background-color: var(--darker-gray);
+  width: 300px;
+  margin-bottom: 10px;
 }
 
 .latest-post-articles p {
@@ -280,18 +279,83 @@ body {
   margin-bottom: 10px;
 }
 
-
 .latest-post-articles p:last-of-type {
   height: 70px;
-  background-color: var(--light-gray);
-}
-.read-more {
-    margin-top: 117px;
-    height: 105px;
-    width: 105px;
-    margin-left: -30px;
 }
 
-.latest-post-articles > *:hover > .read-more {
+.read-more {
+  margin-top: 117px;
+  height: 105px;
+  width: 105px;
+  margin-left: -30px;
+}
+
+.latest-post-articles>*:hover>.read-more {
   background-color: var(--dark-gray);
+}
+
+.member-sign-up {
+  display: flex;
+}
+
+.explore-features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 650px;
+  background-color: var(--dark-gray);
+  width: 70%
+}
+
+.adds {
+  height: 650px;
+  background-color: var(--lighter-gray);
+  width: 30%;
+}
+
+.explore-features-icon {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  background-color: var(--light-gray);
+  cursor: pointer;
+}
+
+.features-link {
+  border-radius: 5px;
+  width: 70%;
+  height: 30px;
+  background-color: var(--darker-gray);
+}
+
+.explore-features p {
+  width: 70%;
+  height: 40px;
+  background-color: var(--darker-gray);
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.member-sign-up-btn {
+  width: 20%;
+  height: 60px;
+  background-color: var(--darker-gray);
+  margin-top: 25px;
+  border-radius: 10px;
+  border: 1px solid var(--darker-gray);
+  cursor: pointer;
+}
+
+.account {
+  width: 20%;
+  height: 25px;
+  background-color: var(--darker-gray);
+}
+.latest-post-btn-0 {
+  height: 15px;
+  width: 15%;
+  background-color: var(--light-darker-gray);
+  margin: 0 auto;
+  margin-top: 40px;
 }
