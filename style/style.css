@@ -251,32 +251,47 @@ body {
 .latest-post-articles {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  background-color: var(--lightest-gray);
+  background-color: var(--light-gray);
+  transition: all .2s ease-out;
 }
 
 .latest-post-articles > * {
-  height: 400px;
-  border: 1px solid green;
+  height: 460px;
   padding: 30px;
 }
 
+.latest-post-articles > *:hover {
+  transform:scale(1.02);
+  background-color: var(--lightest-gray);
+}
+
+
 .latest-post-articles h2 {
-  height: 8px;
-  background-color: var(--lighter-gray);
-  width: 10%;
-  border: 1px solid yellow;
+    height: 100px;
+    background-color: var(--darker-gray);
+    width: 300px;
+    margin-bottom: 10px;
 
 }
 
 .latest-post-articles p {
   height: 16px;
-  background-color: var(--light-gray);
-  border: 1px solid red;
+  background-color: var(--dark-gray);
+  margin-bottom: 10px;
 }
 
-.read-more {
-  height: 12px;
-  background-color: var(--dark-gray);
-  border: 1px solid darkblue;
 
+.latest-post-articles p:last-of-type {
+  height: 70px;
+  background-color: var(--light-gray);
+}
+.read-more {
+    margin-top: 117px;
+    height: 105px;
+    width: 105px;
+    margin-left: -30px;
+}
+
+.latest-post-articles > *:hover > .read-more {
+  background-color: var(--dark-gray);
 }
