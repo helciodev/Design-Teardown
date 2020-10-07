@@ -408,18 +408,19 @@ body {
   display: grid;
   grid-template-rows: repeat(4, 1fr);
   grid-template-columns: repeat(2, 1fr);
-  width: 1400px;
+  width: 1368px;
   background-color: var(--lighter-gray);
   height: 900px;
   padding-top: 40px;
-  gap: 2em;
+  gap: 1em;
 }
 
 .person-of-the-week {
   background-color: var(--lighter-gray);
   grid-column: span 2;
   display: grid;
-  grid-template-columns: 290px 2fr;
+  grid-template-columns: 290px 0.9fr;
+  margin-bottom: 70px;
 }
 
 .image {
@@ -440,10 +441,73 @@ body {
 
 .text {
   height: 100%;
-  background-color: var(--light-gray);
+  background-color: transparent;
   margin-right: 20px;
 }
 
-.com-links-articles {
-  background-color: var(--darkest-gray);
+.text * {
+  border-radius: 5px;
 }
+
+.text-heading {
+  height: 8px;
+  width: 10%;
+  background-color:var(--light-gray);
+  margin-bottom: 20px;
+}
+
+.paragraph {
+  height: 80%;
+  width: 100%;
+  background-color: var(--light-gray);
+}
+
+.com-links-articles {
+  background-color: transparent;
+  display: flex;
+padding-top: 10px;
+padding-left: 18px;
+}
+
+.person-img {
+  flex-basis:60px;
+  height: 60px;
+  background-color: var(--light-darker-gray);
+  border-radius: 6px;
+  transform: rotate(-19deg);
+  transition: all .2s;
+  cursor:pointer;
+  margin-right: 30px;
+}
+
+.person-img:hover {
+  transform: rotate(0deg);
+}
+
+.person-text {
+  width: 80%;
+}
+
+.person-text * {
+border-radius: 5px
+}
+.person-link {
+  height: 8px;
+  width: 14%;
+  background-color:var(--light-gray);
+}
+
+.person-text-name {
+  margin-top: 11px;
+  height: 12px;
+  width: 100%;
+  background-color:var(--light-gray);
+}
+
+.person-text p {
+  margin-top: 20px;
+  height: 60%;
+  width: 100%;
+  background-color:var(--light-gray);
+}
+
