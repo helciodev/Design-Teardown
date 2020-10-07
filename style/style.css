@@ -413,6 +413,7 @@ body {
   height: 900px;
   padding-top: 40px;
   gap: 1em;
+  padding-bottom: 180px;
 }
 
 .person-of-the-week {
@@ -436,7 +437,6 @@ body {
 
 .image:hover {
   transform: rotate(0deg);
-
 }
 
 .text {
@@ -452,7 +452,7 @@ body {
 .text-heading {
   height: 8px;
   width: 10%;
-  background-color:var(--light-gray);
+  background-color: var(--light-gray);
   margin-bottom: 20px;
 }
 
@@ -465,18 +465,18 @@ body {
 .com-links-articles {
   background-color: transparent;
   display: flex;
-padding-top: 10px;
-padding-left: 18px;
+  padding-top: 10px;
+  padding-left: 18px;
 }
 
 .person-img {
-  flex-basis:60px;
+  flex-basis: 60px;
   height: 60px;
   background-color: var(--light-darker-gray);
   border-radius: 6px;
   transform: rotate(-19deg);
   transition: all .2s;
-  cursor:pointer;
+  cursor: pointer;
   margin-right: 30px;
 }
 
@@ -489,25 +489,88 @@ padding-left: 18px;
 }
 
 .person-text * {
-border-radius: 5px
+  border-radius: 5px
 }
+
 .person-link {
   height: 8px;
   width: 14%;
-  background-color:var(--light-gray);
+  background-color: var(--light-gray);
 }
 
 .person-text-name {
   margin-top: 11px;
   height: 12px;
   width: 100%;
-  background-color:var(--light-gray);
+  background-color: var(--light-gray);
 }
 
 .person-text p {
   margin-top: 20px;
   height: 60%;
   width: 100%;
-  background-color:var(--light-gray);
+  background-color: var(--light-gray);
 }
 
+.feature-panel {
+  width: 1400px;
+  height: 350px;
+  display: flex;
+  background-color: var(--light-darker-gray);
+}
+
+.design-system {
+  width: 75%;
+  margin-left: 40px;
+}
+.design-system * {
+  border-radius: 5px;
+}
+
+.sys-heading {
+  height: 12px;
+  width: 230px;
+  background-color: var(--dark-gray);
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+.system-link {
+  height: 40px;
+  width: 270px;
+  background-color: var(--dark-gray);
+  cursor: pointer;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.system-para {
+  height: 50px;
+  width: 80%;
+  background-color: var(--lighter-gray);
+  margin-bottom: 35px;
+}
+
+.system-btn {
+  height: 50px;
+  width: 320px;
+  background-color: var(--light-gray);
+  cursor: pointer;
+  margin-top: 15px;
+  outline: none;
+  border: 1px solid var(--light-gray);
+}
+
+.design-system-icon {
+  width: 15%;
+  background-color: var(--darkest-gray);
+  transform: rotate(-19deg);
+  transition: all .3s;
+  height: 90%;
+ margin-top: -80px;
+  margin-left: -60px;
+}
+
+.design-system-icon:hover {
+  transform: rotate(0deg);
+}
