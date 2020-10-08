@@ -38,6 +38,12 @@ body {
   cursor: pointer;
 }
 
+.hide {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px); /* IE6 & 7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
 .logo {
   width: 145px;
   height: 3.5em;
