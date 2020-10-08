@@ -31,9 +31,7 @@ body {
 }
 
 .hide {
-  position: absolute;
-  clip: rect(1px 1px 1px 1px);
-  clip: rect(1px, 1px, 1px, 1px);
+  z-index: -1000;
 }
 
 .main-header * {
@@ -603,9 +601,6 @@ body {
 .design-system-icon:hover {
   transform: rotate(0deg);
 }
-
-/* --light-gray: rgb(175, 173, 173);
-  --dark-gray: rgb(129, 129, 129); */
 
 .our-guides {
   width: 1400px;
