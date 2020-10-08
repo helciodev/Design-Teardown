@@ -41,7 +41,7 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
-assets/style/style.scss
+/assets/sass/style.scss
 
 # TypeScript v1 declaration files
 typings/
