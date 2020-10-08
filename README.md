@@ -15,8 +15,10 @@ This project consists of building a heatmap for the Smashing magazine website, w
 
 ## Built With
 
-- HTML
-- CSS
+- [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
+- [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
+
+
 
 ## Live Demo
 
@@ -39,6 +41,7 @@ This project consists of building a heatmap for the Smashing magazine website, w
 
 - Github: [ArreyTabe](https://github.com/ArreyTabe)
 - Twitter: [@tabe_arrey](https://twitter.com/tabe_arrey)
+- LinkedIn: [Arrey Affuembey](https://www.linkedin.com/in/arrey-affuembey-80a8b11a8/)
 
 ## Show your support
 
@@ -46,4 +49,8 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./license.txt) licensed.
+This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
+
+
+
+
