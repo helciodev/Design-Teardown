@@ -2,7 +2,7 @@
 
 # Smashing Magazine Design Tear Down
 
-This project consists of building a heatmap for the Smashing magazine website
+This project consists of building a heatmap for the Smashing magazine website, wherein we used frontend techniques like: flexbox, grid, absolute a relative positioning to create the layout.
 
 ![screenshot](assets/screenshot.png)
 
@@ -34,13 +34,11 @@ This project consists of building a heatmap for the Smashing magazine website
 
 - GitHub: [@helciodev](https://github.com/helciodev)
 - Twitter: [@helcio_bruno](https://twitter.com/helcio_bruno)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/helcio-andre/)
 
 👤 **Arrey Tabe**
 
 - Github: [ArreyTabe](https://github.com/ArreyTabe)
 - Twitter: [@tabe_arrey](https://twitter.com/tabe_arrey)
-- LinkedIn: [Arrey Tabe](https://www.linkedin.com/in/arrey-affuembey-80a8b11a8)
 
 ## Show your support
 
