@@ -30,14 +30,58 @@ body {
   padding: 5px 6px;
 }
 
+.hide {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
 .main-header * {
   border-radius: 5px;
 }
 
-.hide {
-  position: absolute;
-  clip: rect(1px 1px 1px 1px); /* IE6 & 7 */
-  clip: rect(1px, 1px, 1px, 1px);
+.latest-post-articles > * {
+  height: 460px;
+  padding: 30px;
+}
+
+.footer-links > * {
+  border-radius: 5px;
+  background-color: var(--lighter-gray);
+  width: 40px;
+  height: 15px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.text * {
+  border-radius: 5px;
+}
+
+.person-text * {
+  border-radius: 5px;
+}
+
+.design-system * {
+  border-radius: 5px;
+}
+
+.smash-guide-1st *,
+.performance *,
+.newsletter {
+  border-radius: 6px;
+}
+
+.foot-ul-1 > * {
+  border-radius: 5px;
+  width: 40px;
+  height: 15px;
+  background-color: var(--lighter-gray);
+  margin-left: 20px;
+}
+
+.main-header *:not(:last-child) {
+  cursor: pointer;
 }
 
 .logo {
@@ -47,18 +91,18 @@ body {
   margin-left: 10px;
 }
 
+.main-header ul {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+}
+
 .membership-content p,
 .membership-content li {
   height: 8px;
   width: 60%;
   margin-bottom: 14px;
   background-color: var(--light-gray);
-}
-
-.main-header ul {
-  display: flex;
-  justify-content: space-between;
-  width: 45%;
 }
 
 .main-header ul li {
@@ -277,11 +321,34 @@ body {
   margin-bottom: 10px;
 }
 
+.explore-features p {
+  width: 70%;
+  height: 40px;
+  background-color: var(--darker-gray);
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.person-text p {
+  margin-top: 20px;
+  height: 60%;
+  width: 100%;
+  background-color: var(--light-gray);
+}
+
+.latest-post-articles p:last-of-type {
+  height: 70px;
+}
+
 .read-more {
   margin-top: 117px;
   height: 105px;
   width: 105px;
   margin-left: -30px;
+}
+
+.latest-post-articles > *:hover > .read-more {
+  background-color: var(--dark-gray);
 }
 
 .member-sign-up {
@@ -317,14 +384,6 @@ body {
   width: 70%;
   height: 30px;
   background-color: var(--darker-gray);
-}
-
-.explore-features p {
-  width: 70%;
-  height: 40px;
-  background-color: var(--darker-gray);
-  margin-bottom: 20px;
-  border-radius: 5px;
 }
 
 .member-sign-up-btn {
@@ -486,13 +545,6 @@ body {
   background-color: var(--light-gray);
 }
 
-.person-text p {
-  margin-top: 20px;
-  height: 60%;
-  width: 100%;
-  background-color: var(--light-gray);
-}
-
 .feature-panel {
   width: 1400px;
   height: 350px;
@@ -643,6 +695,7 @@ body {
   background-color: var(--lighter-gray);
   border-radius: 50%;
   margin: 0 auto;
+  margin-top: 30px;
 }
 
 .newsletter > *:nth-child(2) {
@@ -690,36 +743,6 @@ body {
   border-bottom-right-radius: 6px;
 }
 
-.latest-post-articles p:last-of-type {
-  height: 70px;
-}
-
-.design-system * {
-  border-radius: 5px;
-}
-
-.main-header *:not(:last-child) {
-  cursor: pointer;
-}
-
-.text * {
-  border-radius: 5px;
-}
-
-.smash-guide-1st *,
-.performance *,
-.newsletter {
-  border-radius: 6px;
-}
-
-.person-text * {
-  border-radius: 5px;
-}
-
-.latest-post-articles > *:hover > .read-more {
-  background-color: var(--dark-gray);
-}
-
 .footer {
   display: flex;
   flex-direction: column;
@@ -727,6 +750,15 @@ body {
   width: 1400px;
   background-color: var(--darker-gray);
   height: 600px;
+}
+
+.footer-links {
+  height: 61px;
+  justify-content: center;
+  width: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
 }
 
 .footer > *:first-child {
@@ -748,14 +780,6 @@ body {
   margin-bottom: 20px;
 }
 
-.foot-ul-1 > * {
-  border-radius: 5px;
-  width: 40px;
-  height: 15px;
-  background-color: var(--lighter-gray);
-  margin-left: 20px;
-}
-
 .foot-ul-1 > *:hover {
   background-color: var(--darkest-gray);
   cursor: pointer;
@@ -768,22 +792,4 @@ body {
   height: 60px;
   background-color: var(--light-darker-gray);
   margin-bottom: 15px;
-}
-
-.footer-links {
-  height: 61px;
-  justify-content: center;
-  width: 20%;
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 20px;
-}
-
-.footer-links > * {
-  border-radius: 5px;
-  background-color: var(--lighter-gray);
-  width: 40px;
-  height: 15px;
-  margin-left: 30px;
-  cursor: pointer;
 }
