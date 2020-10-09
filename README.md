@@ -17,12 +17,12 @@ This project consists of building a heatmap for the Smashing magazine website, w
 
 - [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
 - [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
-
+- ![sass](assets/sass.png)
 
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/helciodev/Design-Teardown/2ed6120c966c3ef8caf0d623c48395568190278d/index.html)
+[Live Demo Link](https://rawcdn.githack.com/helciodev/Design-Teardown/bef692d542d2d76732fd41fa449b2cfd87add473/index.html)
 
 **See the page via the link above**
 
