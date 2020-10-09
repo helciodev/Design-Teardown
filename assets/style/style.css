@@ -43,13 +43,12 @@ body {
   padding: 30px;
 }
 
-.footer-links > * {
+.footer-ul-links li {
   border-radius: 5px;
   background-color: var(--lighter-gray);
-  width: 40px;
-  height: 15px;
-  margin-left: 30px;
-  cursor: pointer;
+  margin-left: 30px;  
+  width: 50px;
+  height: 15px; 
 }
 
 .text * {
@@ -70,16 +69,24 @@ body {
   border-radius: 6px;
 }
 
-.foot-ul-1 > * {
-  border-radius: 5px;
-  width: 40px;
-  height: 15px;
+ .footer li {
   background-color: var(--lighter-gray);
+  border-radius: 5px;
   margin-left: 20px;
+  width: 50px;
+  height: 15px;
 }
-
-.main-header *:not(:last-child) {
-  cursor: pointer;
+.footer a {
+  border-radius: 5px;
+  display: block;
+  background-color: var(--lighter-gray);
+  color: var(--lighter-gray);;
+}
+.head-nav-ul a {
+ text-decoration: none;
+  display: block;
+  color:  var(--lighter-gray);
+ background-color: var(--lighter-gray);
 }
 
 .logo {
@@ -212,7 +219,6 @@ body {
   border-radius: 5px;
   transform: rotate(-19deg);
   transition: all 0.2s;
-  cursor: pointer;
 }
 
 .article-img:hover {
@@ -270,7 +276,6 @@ body {
   margin-top: -85px;
   background-color: var(--darker-gray);
   transition: all 0.2s;
-  cursor: pointer;
   margin-right: 140px;
 }
 
@@ -286,7 +291,6 @@ body {
   border: 1px solid var(--darker-gray);
   margin-top: 35px;
   border-radius: 10px;
-  cursor: pointer;
 }
 
 .latest-post {
@@ -374,7 +378,6 @@ body {
   height: 250px;
   width: 250px;
   background-color: var(--light-gray);
-  cursor: pointer;
 }
 
 .features-link {
@@ -391,7 +394,6 @@ body {
   margin-top: 25px;
   border-radius: 10px;
   border: 1px solid var(--darker-gray);
-  cursor: pointer;
 }
 
 .account {
@@ -437,7 +439,6 @@ body {
   margin-bottom: 35px;
   border-radius: 11px;
   margin-top: 50px;
-  cursor: pointer;
   outline: none;
   border: 1px solid var(--darker-gray);
 }
@@ -478,7 +479,6 @@ body {
   transform: rotate(-19deg);
   border-radius: 15px;
   transition: all 0.3s;
-  cursor: pointer;
 }
 
 .image:hover {
@@ -518,7 +518,6 @@ body {
   border-radius: 6px;
   transform: rotate(-19deg);
   transition: all 0.2s;
-  cursor: pointer;
   margin-right: 30px;
 }
 
@@ -567,7 +566,6 @@ body {
   height: 40px;
   width: 270px;
   background-color: var(--dark-gray);
-  cursor: pointer;
   margin-bottom: 40px;
 }
 
@@ -582,7 +580,6 @@ body {
   height: 50px;
   width: 320px;
   background-color: var(--light-gray);
-  cursor: pointer;
   margin-top: 15px;
   outline: none;
   border: 1px solid var(--light-gray);
@@ -655,7 +652,6 @@ body {
   height: 16px;
   width: 35%;
   background-color: var(--darker-gray);
-  cursor: pointer;
 }
 
 .smash-guide-1st *:nth-child(3),
@@ -672,7 +668,6 @@ body {
   height: 55px;
   width: 70%;
   background-color: var(--darker-gray);
-  cursor: pointer;
   outline: none;
   border: 1px solid var(--darker-gray);
 }
@@ -697,7 +692,6 @@ body {
   height: 30px;
   width: 72%;
   background-color: var(--light-gray);
-  cursor: pointer;
   margin-left: 45px;
 }
 
@@ -733,7 +727,6 @@ body {
 .news-input > *:nth-child(2) {
   background-color: var(--light-gray);
   width: 20%;
-  cursor: pointer;
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
 }
@@ -747,13 +740,15 @@ body {
   height: 600px;
 }
 
-.footer-links {
-  height: 61px;
+.footer-ul-links {
+  height: 91px;
   justify-content: center;
   width: 20%;
   display: flex;
   flex-wrap: wrap;
   margin-top: 20px;
+  flex-direction: row;
+  padding-top: 5px;
 }
 
 .footer > *:first-child {
@@ -764,9 +759,10 @@ body {
   margin-bottom: 30px;
 }
 
-.foot-ul-1 {
+.foot-list-items  {
   margin-top: 30px;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
   width: 70%;
@@ -775,9 +771,8 @@ body {
   margin-bottom: 20px;
 }
 
-.foot-ul-1 > *:hover {
+.foot-list-items li a:hover {
   background-color: var(--darkest-gray);
-  cursor: pointer;
 }
 
 .after-ul {
