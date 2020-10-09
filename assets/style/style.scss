@@ -31,7 +31,14 @@ body {
 }
 
 .hide {
-  z-index: -1000;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 
 .main-header * {
@@ -76,12 +83,14 @@ body {
   width: 50px;
   height: 15px;
 }
+
 .footer a {
   border-radius: 5px;
   display: block;
   background-color: var(--lighter-gray);
   color: var(--lighter-gray);
 }
+
 .head-nav-ul a {
   text-decoration: none;
   display: block;
@@ -115,6 +124,7 @@ body {
   background-color: var(--lighter-gray);
   width: 13%;
   list-style: none;
+  cursor: pointer;
 }
 
 .main-header li:not(:last-of-type) {
@@ -128,6 +138,7 @@ body {
   background-color: var(--dark-gray);
   border: 1px solid var(--dark-gray);
   outline: none;
+  cursor: pointer;
 }
 
 .nav-btn:hover {
@@ -277,6 +288,7 @@ body {
   background-color: var(--darker-gray);
   transition: all 0.2s;
   margin-right: 140px;
+  cursor: pointer;
 }
 
 .membership-icon:hover {
@@ -343,7 +355,7 @@ body {
 }
 
 .read-more {
-  margin-top: 117px;
+  margin-top: 228px;
   height: 105px;
   width: 105px;
   margin-left: -30px;
@@ -394,6 +406,7 @@ body {
   margin-top: 25px;
   border-radius: 10px;
   border: 1px solid var(--darker-gray);
+  cursor: pointer;
 }
 
 .account {
@@ -441,6 +454,7 @@ body {
   margin-top: 50px;
   outline: none;
   border: 1px solid var(--darker-gray);
+  cursor: pointer;
 }
 
 .books-icon {
@@ -449,6 +463,7 @@ body {
   background-color: var(--light-gray);
   border-radius: 50%;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 .comunity-links {
@@ -627,7 +642,7 @@ body {
 .newsletter,
 .performance {
   background-color: var(--light-gray);
-  width: 45%;
+  width: 46%;
 }
 
 .smash-guide-2 {
@@ -670,6 +685,7 @@ body {
   background-color: var(--darker-gray);
   outline: none;
   border: 1px solid var(--darker-gray);
+  cursor: pointer;
 }
 
 .newsletter {
@@ -729,6 +745,7 @@ body {
   width: 20%;
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
+  cursor: pointer;
 }
 
 .footer {
@@ -769,10 +786,6 @@ body {
   height: 180px;
   padding-top: 10px;
   margin-bottom: 20px;
-}
-
-.foot-list-items li a:hover {
-  background-color: var(--darkest-gray);
 }
 
 .after-ul {
